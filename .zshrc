@@ -21,6 +21,9 @@ set blink-matching-paren on
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# in .zshrc add user to hide user from command prompt
+DEFAULT_USER=anil
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
