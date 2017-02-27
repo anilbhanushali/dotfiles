@@ -19,8 +19,8 @@ set blink-matching-paren on
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
-
+#ZSH_THEME="agnoster"
+ZSH_THEME=robbyrussell
 # in .zshrc add user to hide user from command prompt
 DEFAULT_USER=anil
 
