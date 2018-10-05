@@ -150,6 +150,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-alias free-port="kill '$(lsof -t -i :$1)' "
+alias free-port='function _free-port(){ kill "$(lsof -t -i :$1)" };_free-port'
 
-alias kill-port="kill -kill '$(lsof -t -i :$1)'"
+alias kill-port='function _kill-port(){ kill -kill "$(lsof -t -i :$1)" };_kill-port'
