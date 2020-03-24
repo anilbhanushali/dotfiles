@@ -31,3 +31,23 @@ export MANPAGER='less -X';
 
 # GOPATH
 export GOPATH=$HOME/go
+
+export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
+
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+export PATH="/usr/local/opt/node@8/bin:$PATH"
+export PATH="/usr/local/opt/erlang@19/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export CLASSPATH="$HOME/dev/CLASSPATH"
+
+export PATH="$PATH:/Users/anil/Dev/flutter/bin"
+
+export LOCALIP=$(ipconfig getifaddr en0)
